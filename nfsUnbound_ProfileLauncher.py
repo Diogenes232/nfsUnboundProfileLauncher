@@ -1,6 +1,6 @@
 import time, codecs, os, shutil, psutil, datetime
 
-# Launch NFS:Unbound with several profiles
+# launch NFS:Unbound with different player profiles
 
 def readFile(filename):
     datei_IN = False
