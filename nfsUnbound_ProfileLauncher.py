@@ -1,6 +1,7 @@
 import time, codecs, os, shutil, psutil, datetime
 
 # launch NFS:Unbound with different player profiles
+# the code can be found on https://github.com/Diogenes232/nfsUnboundProfileLauncher
 
 def readFile(filename):
     datei_IN = False
