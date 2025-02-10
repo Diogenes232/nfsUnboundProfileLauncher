@@ -26,4 +26,4 @@ NFS Unbound normally contains a savegame file named `C:\Users\UserNameXYZ\OneDri
 - cassandra-1
 - cassandra-2
 
-A new file is saved after each game session. So you have the chance to remove the last savegame file... or try something new and rename the latest savegame file to `ferrari-testarossa` to pick that state up at some point in the future.
+A new file is saved after each game session. So you have the chance to remove the last savegame file... or try something new (buy a Testarossa with every update) and rename the resulting savegame file to `ferrari-testarossa` to pick that state up at some point in the future.
