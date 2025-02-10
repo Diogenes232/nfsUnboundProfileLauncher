@@ -1,5 +1,5 @@
 # Need for Speed: Unbound - Profile Launcher
-Command line tool to manage multiple offline player accounts in NFS Unbound on Windows.
+Command line tool for Windows to manage multiple offline player accounts in NFS Unbound.
 
 With this tool you can decide before starting NFS which profile to load (which player will play). Since NFS Unbound can only work with one game file this launcher helps you by simulating multiple profiles (players) before launching the game.
 
@@ -12,8 +12,9 @@ I did not check how it reacts to online games (I just started the career a few w
 - You can close the launcher or wait for it to close.
 
 ## First installation
-You can install Python3 and compile the .py file yourself or just use the compiled application file:
-Download the `nfsUnbound_ProfileLauncher.exe` from the `dist` directory to the directory where your game files are located (e.g. `C:\Games\EA - Games\Need for Speed Unbound`). Run `nfsUnbound_ProfileLauncher.exe` - it will ask you which profiles you want to create - afterwards profiles can be added or removed in the settings file.
+You can install Python3 and compile the .py file yourself (if a package is missing `pip install packageName`).. or just use the compiled application file:
+
+Download the `nfsUnbound_ProfileLauncher.exe` from the `dist` directory to the directory where your game files are located (e.g. `C:\Games\EA - Games\Need for Speed Unbound`). Run `nfsUnbound_ProfileLauncher.exe` - it will ask you which profiles you want to create - profiles can be added or removed in the settings file afterwards.
 
 The settings are now saved in the file `nfsUnbound_ProfileLauncher_settings.txt`. It contains the created profiles and the path to your actual savegames (the default should work on most PCs; change it otherwise). If it finds a savegame there, it will ask you if you want to keep it (the next player will get the savegame state) or ignore it (everyone will start a new game).
 After choosing which profile to start, the game will be started.
