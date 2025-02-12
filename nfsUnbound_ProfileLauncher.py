@@ -161,7 +161,7 @@ os.system('cls')
 print('\nWelcome to NFS:Unbound profile launcher')
 
 # constants
-checkIfGameIsRunningEveryXSeconds = 7
+checkIfGameIsRunningEveryXSeconds = 3
 settingsFile = "nfsUnbound_ProfileLauncher_settings.txt"
 nfsuExeFile = "NeedForSpeedUnbound.exe"
 
@@ -199,4 +199,4 @@ shutil.move(savegameOrphanOrCurrent, nextSavegameFile)
 
 print('\nSee you next time /w NFS:Unbound')
 print('(you can close the window now)')
-time.sleep(120)
+time.sleep(60)
